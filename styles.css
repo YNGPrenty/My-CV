@@ -12,6 +12,7 @@ body {
     url(alabama-hillz-1920x1080-5k-4k-kaliforniya-ssha-gori-nebo-zakat-4887.jpg)
     no-repeat fixed;
   background-size: cover;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,7 +26,7 @@ body {
 
 .myinfo {
   display: flex;
-  background-color: rgb(185, 255, 255);
+  background-color: rgba(0, 4, 255, 0.315);
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 0 20px 20px -20px #333;
