@@ -19,7 +19,6 @@ body {
 .container {
   width: 700px;
   margin: auto;
-  margin-top: 2rem;
   background-color: rgba(255, 255, 255, 0.438);
   border-radius: 20px;
 }
@@ -32,8 +31,22 @@ body {
   box-shadow: 0 20px 20px -20px #333;
 }
 
+@media (max-width: 700px) {
+  .container{
+    width: 100%;
+  }
+  .myinfo {
+    text-align: center;
+    display: block;
+  }
+}
+
 .myinfo-text {
   margin-left: 2rem;
+}
+.myinfo-text h1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .git {
