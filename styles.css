@@ -3,7 +3,8 @@
 #myfoto {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 0px #333
 }
 
 body {
@@ -14,15 +15,6 @@ body {
 .container {
   width: 700px;
   margin: auto;
-}
-.container hr {
-  margin: -30px auto 10px;
-  padding: 0;
-  height: 50px;
-  border: none;
-  border-bottom: 1px solid #1f1209;
-  box-shadow: 0 20px 20px -20px #333;
-  width: 95%;
 }
 
 .myinfo {
@@ -40,7 +32,6 @@ body {
 .git {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 20px 20px -20px #333;
 }
 
 .git h1 {
@@ -48,14 +39,39 @@ body {
   margin: 0;
 }
 
+.git hr {
+  margin: -40px auto 10px;
+  padding: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  width: 80%;
+}
+
 .hobbysoc {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
 .hobby {
-  width: 50%;
+  width: 45%;
+  margin-right: 1rem;
   text-align: center;
+  background-color: rgba(255, 0, 191, 0.425);
+  border-radius: 20px;
+  box-shadow: 0 20px 20px -20px #333;
+}
+
+.hobby hr {
+  margin: -60px auto 10px;
+  padding: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  width: 80%;
 }
 
 .hobby ol {
@@ -73,14 +89,30 @@ body {
 }
 
 .soc {
-  width: 50%;
+  width: 45%;
+  margin-right: 1rem;
   text-align: center;
+  background-color: rgba(0, 255, 42, 0.425);
+  border-radius: 20px;
+  box-shadow: 0 20px 20px -20px #333;
+}
+.soc hr {
+  margin: -60px auto 10px;
+  padding: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  width: 80%;
+}
+
+.soc h2 {
+  margin-top: 25px;
 }
 
 .soc ul {
   list-style-type: none;
   padding: 0;
-  background-color: aqua;
 }
 
 .soc ul li {
