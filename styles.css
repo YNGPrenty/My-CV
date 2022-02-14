@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+#myfoto {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+body {
+  background: rgb(236, 236, 236);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+.container hr {
+  margin: -30px auto 10px;
+  padding: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  width: 95%;
+}
+
+.myinfo {
+  display: flex;
+  background-color: rgb(185, 255, 255);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px -20px #333;
+}
+
+.myinfo-text {
+  margin-left: 5rem;
+}
+
+.git{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 20px -20px #333;
+}
+
+.git h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.hobbysoc {
+  display: flex;
+  width: 100%;
+}
+
+.hobby {
+  width: 50%;
+  text-align: center;
+
+}
+
+.hobby ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobby ol li {
+  margin-bottom: 0.5rem;
+}
+
+.soc {
+  width: 50%;
+  text-align: center;
+}
+
+.soc ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.soc ul li {
+  margin-bottom: 0.5rem;
+}
