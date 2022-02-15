@@ -52,7 +52,23 @@ body {
 }
 .myinfo-text h1 {
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
+  font-weight: 100;
+  text-shadow: 0px 1px 2px;
+}
+
+.myinfo-text p {
+  font-weight: 300;
+}
+
+#YT {
+  margin: 0;
+  color:rgba(0, 0, 0, 0.466);
+  margin-bottom: 10px;
+}
+
+#mnf {
+  margin-bottom: 40px;
 }
 
 .git {
@@ -62,7 +78,9 @@ body {
 
 .git h1 {
   text-align: center;
+  font-weight: lighter;
   margin: 0;
+  text-shadow: 0px 1px 2px;
 }
 
 .git hr {
@@ -90,6 +108,13 @@ body {
   box-shadow: 0 20px 20px -20px #333;
 }
 
+.hobby h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  text-shadow: 0px 1px 2px;
+}
+
 .hobby hr {
   margin: -60px auto 10px;
   padding: 0;
@@ -108,7 +133,8 @@ body {
 .hobby ol li {
   margin-bottom: 0.5rem;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 300;
+  text-shadow: 0px 1px 2px;
   margin-top: 1rem;
 }
 
@@ -163,6 +189,7 @@ body {
   padding-left: 10px;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
   padding-top: 3px;
   padding-right: 5px;
 }
