@@ -11,6 +11,7 @@ body {
   background: rgb(236, 236, 236) url(background.jpg) no-repeat fixed;
   background-size: cover;
   font-size: 16px;
+  font-weight: normal;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,21 +29,6 @@ body {
   padding: 1rem;
   border-radius: 20px 20px 0px 0px;
   box-shadow: 0 20px 20px -20px #333;
-}
-
-@media (max-width: 700px) {
-  .container {
-    width: 100%;
-  }
-  .myinfo {
-    text-align: center;
-    display: block;
-  }
-  .sociales ul {
-    display: block;
-    text-align: center;
-    justify-content: space-evenly;
-  }
 }
 
 .myinfo-text {
@@ -101,7 +87,7 @@ body {
 .hobby {
   width: 45%;
   text-align: center;
-  background-color: rgba(255, 0, 191, 0.75);
+  background-color: rgba(255, 68, 161, 0.63);
   border-radius: 20px;
   box-shadow: 0 20px 20px -20px #333;
 }
@@ -222,4 +208,44 @@ td {
   font-weight: 300;
   text-shadow: 0px 1px 4px;
   color: rgba(0, 0, 0, 0.699);
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .myinfo {
+    text-align: center;
+    display: block;
+  }
+  .myinfo-text {
+    margin-left: 0;
+  }
+
+  .sociales ul {
+    display: block;
+  }
+
+  .sociales ul li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  td {
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer h1 {
+    margin-left: 33px ;
+    margin-right: 33px ;
+  }
+  .footer {
+    height: 120px;
+  }
 }
